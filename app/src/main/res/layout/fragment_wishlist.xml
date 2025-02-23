@@ -1,0 +1,167 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Home Fragement" />-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:text="รายการโปรด"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:paddingLeft="33dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/shirt1" />
+
+    <TextView
+        android:id="@+id/shirt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ชุดนอนสีฟ้า"
+        android:textStyle="bold"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="220dp"
+
+        />
+    <!-- android:layout_marginTop="350dp"
+     android:layout_marginLeft="220dp"-->
+    <TextView
+        android:id="@+id/shirtnum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ราคา 1500 บาท"
+        android:textStyle="bold"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="220dp"
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="180dp"
+        android:text="เพิ่มลงตะกร้า" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="310dp"
+        android:text="ลบ" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/shirt2" />
+
+    <TextView
+        android:id="@+id/shirt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ชุดนอนสีขาว"
+        android:textStyle="bold"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="220dp"
+
+        />
+    <!-- android:layout_marginTop="350dp"
+     android:layout_marginLeft="220dp"-->
+    <TextView
+        android:id="@+id/shirt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ราคา 1300 บาท"
+        android:textStyle="bold"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="220dp"
+        />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="180dp"
+        android:text="เพิ่มลงตะกร้า"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="310dp"
+        android:text="ลบ"
+
+        />
+
+
+    <TextView
+        android:id="@+id/shirtnum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ถุงเท้า"
+        android:textStyle="bold"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="220dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/pen" />
+
+
+    <TextView
+        android:id="@+id/sport2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ราคา 95 บาท "
+        android:textStyle="bold"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="220dp"
+
+        />
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="180dp"
+        android:text="เพิ่มลงตะกร้า" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="310dp"
+        android:text="ลบ" />
+
+</FrameLayout>

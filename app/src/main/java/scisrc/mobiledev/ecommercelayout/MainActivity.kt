@@ -45,6 +45,30 @@ class MainActivity : AppCompatActivity() {
                         .commit()
                 }
 
+                R.id.nav_productlist -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, HomeFragment())
+                        .commit()
+                }
+
+                R.id.nav_profile -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, HomeFragment())
+                        .commit()
+                }
+
+                R.id.nav_cart -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, HomeFragment())
+                        .commit()
+                }
+
+                R.id.nav_wishlist -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, HomeFragment())
+                        .commit()
+                }
+
             }
             drawerLayout.closeDrawer(GravityCompat.START)
             true
